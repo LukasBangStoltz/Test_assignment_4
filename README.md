@@ -3,9 +3,9 @@
 ## Moq
 ### How do you verify that a mock was called?
 We use Moq's _mock.Verify() method to verify that the mock was called
-<p align="center">
+
   <img src="Pictures/verifymock.PNG" height="700" width="1300" title="hover text">
-</p>
+
 
 ### How do you verify that a mock was not called?
 we insert Times.never() to specify verify that the mock was never called
